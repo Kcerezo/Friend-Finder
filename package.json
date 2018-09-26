@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/Kcerezo/Friend-Finder#readme",
   "dependencies": {
-    "json": "^9.0.6"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "json": "^9.0.6",
+    "path": "^0.12.7"
   }
 }

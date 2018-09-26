@@ -1,0 +1,57 @@
+
+.jumbotron {
+    background-image:url("images/friends.jpg");
+    height:400px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+h1{
+    font-family: 'Abril Fatface';
+    margin: 135px;
+    text-align: center;
+    color: white;
+}
+
+h3{
+    font-family: 'Abril Fatface';
+    margin: 25px;
+    text-align: center;
+    font-weight: 900;
+}
+
+h2{
+    margin: 20px;
+    font-family: 'Abril Fatface';
+    text-align: center;
+}
+
+h4{
+    margin: 25px;
+    font-family: 'Abril Fatface';
+    font-weight: 900;
+}
+
+.jumbo{
+    background-image:url("images/helena-lopes-463976-unsplash.jpg");
+    height:500px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+.form-group{
+    margin-right: 30px;
+    margin-left: 30px;
+    font-family: 'Abril Fatface';
+    font-size: .5cm;
+
+} 
+
+.button{
+    text-align: center;
+      
+} 
+
+.btn {
+    margin: 30px;
+}
