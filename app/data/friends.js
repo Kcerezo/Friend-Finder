@@ -1,0 +1,100 @@
+var friendArray = [
+{
+    "name":"John Doe",
+    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "scores":[
+        5,
+        1,
+        4,
+        4,
+        5,
+        1,
+        2,
+        5,
+        4,
+        1
+      ]
+  },
+  {
+    "name":"Jay Jacobs",
+    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "scores":[
+        5,
+        1,
+        4,
+        4,
+        5,
+        1,
+        2,
+        5,
+        4,
+        1
+      ]
+  },
+  {
+    "name":"Kasey Kay",
+    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "scores":[
+        5,
+        1,
+        4,
+        4,
+        5,
+        1,
+        2,
+        5,
+        4,
+        1
+      ]
+  },
+  {
+    "name":"Leslie Lou",
+    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "scores":[
+        5,
+        1,
+        4,
+        4,
+        5,
+        1,
+        2,
+        5,
+        4,
+        1
+      ]
+  },
+  {
+    "name":"Becky Ray",
+    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "scores":[
+        5,
+        1,
+        4,
+        4,
+        5,
+        1,
+        2,
+        5,
+        4,
+        1
+      ]
+  },
+  {
+    "name":"Justin Joe",
+    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "scores":[
+        5,
+        1,
+        4,
+        4,
+        5,
+        1,
+        2,
+        5,
+        4,
+        1
+      ]
+  },
+];
+
+module.exports = friendArray;
