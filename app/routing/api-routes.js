@@ -5,7 +5,7 @@ module.exports= function(app){
     })
 }
 
-var friendData = require ('../app/data/friends.js');
+var friendData = require ('../data/friends.js');
 
 module.exports = function (app){
 
@@ -13,7 +13,7 @@ module.exports = function (app){
         res.json(tableData);
     });
 
-    app.post('/api/tables', function (req, res){
+    app.get('/api/tables', function (req, res){
         if(friendData.length <5){
             friendData.push(req.body);
             res.json(true);
@@ -23,10 +23,10 @@ module.exports = function (app){
         }
     });
 
-    app.post('/api/friend', function(){
+    app.post('/api/friend_form', function(req, res){
         friendData = [];
         nomatchData = [];
-
+        console.log(req)
         console.log(friendData);
         console.log(nomatchData);
     })
